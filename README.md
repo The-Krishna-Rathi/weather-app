@@ -1,3 +1,21 @@
+## Mausam - The Weather App
+
+* It is a react based application
+* It uses openWeatherApi to get realtime data
+* It make use of UseEffect hook to fetch the data from the openWaetherApi and the fetched data is then rendered by the UI developed in React.js
+
+![image](https://user-images.githubusercontent.com/74900144/216412434-c1324c15-fed4-460e-8e2d-7b4e214c7c30.png)
+
+# UseEffect Hook
+useEffect hook is used to handle the side-effects of javascript functions, means the features, functions or services which needs javascript to work asynchronosly. It is used to implement logical part of the component which deals with calling API. It is a replacement of old regimes 'Component Did Mount' , 'Component Did Update' and 'Component Did Unmount'. 
+
+```
+//syntax to use useEffect()
+useEffect(() => {
+    API calls...
+  }, [])
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
