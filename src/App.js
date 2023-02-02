@@ -35,7 +35,6 @@ function App() {
       <div className="App">
         <div className="Head-section">
           <img src={logo} className="logo" />
-          <h1>Mausam</h1>
         </div>
         <div>
           {typeof data.main != "undefined" ? (
