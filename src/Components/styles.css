@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.card {
+  width: 40vw;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: rgb(182, 182, 182);
+  color: rgb(54, 25, 74);
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  font-weight: 900;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  background-color: antiquewhite;
+  border-radius: 0 0 10px 10px;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.item {
+  color: rgb(67, 67, 67);
+  font-size: larger;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+}
+
+.date,
+.description {
+  font-size: x-large;
+}
