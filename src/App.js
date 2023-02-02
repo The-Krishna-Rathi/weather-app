@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Weather from "./Components/Weather";
+import logo from "./weather.png";
 
 function App() {
   const [long, setLong] = useState(null);
@@ -32,11 +33,17 @@ function App() {
   return (
     <>
       <div className="App">
-        {typeof data.main != "undefined" ? (
-          <Weather weatherdata={data} />
-        ) : (
-          <div></div>
-        )}
+        <div className="Head-section">
+          <img src={logo} className="logo" />
+          <h1>Mausam</h1>
+        </div>
+        <div>
+          {typeof data.main != "undefined" ? (
+            <Weather weatherdata={data} />
+          ) : (
+            <div></div>
+          )}
+        </div>
       </div>
     </>
   );
